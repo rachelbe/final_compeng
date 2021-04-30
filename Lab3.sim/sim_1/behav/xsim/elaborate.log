@@ -1,0 +1,32 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto be52f3b57094496995671d65c6958d9a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'in' [C:/Users/Rachel/Desktop/Compeng331 Labs/Lab5_/Lab5/Lab3.srcs/sim_1/new/testbench.v:85]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 6 for port 'rs' [C:/Users/Rachel/Desktop/Compeng331 Labs/Lab5_/Lab5/Lab3.srcs/sim_1/new/testbench.v:87]
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 32 for port 'rd' [C:/Users/Rachel/Desktop/Compeng331 Labs/Lab5_/Lab5/Lab3.srcs/sim_1/new/testbench.v:89]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pc
+Compiling module xil_defaultlib.adder
+Compiling module xil_defaultlib.IF_ID
+Compiling module xil_defaultlib.instMem
+Compiling module xil_defaultlib.regFile
+Compiling module xil_defaultlib.signEx
+Compiling module xil_defaultlib.controlUnit
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.ID_EXE
+Compiling module xil_defaultlib.exe_mux
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.EXE_MEM
+Compiling module xil_defaultlib.Datamem
+Compiling module xil_defaultlib.MEM_WB
+Compiling module xil_defaultlib.wb_mux
+Compiling module xil_defaultlib.fwda_sel
+Compiling module xil_defaultlib.fwdb_sel
+Compiling module xil_defaultlib.testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot testbench_behav
